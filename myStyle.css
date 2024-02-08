@@ -1,0 +1,48 @@
+body {
+    color: maroon;
+    background-color: linen;
+    font-size: 1.05em;
+    font-family: "Century Gothic", Helvetica, sans-serif;
+}
+
+h1 {
+    color: navy;
+    background-color: lightblue;
+}
+
+h2 {
+    color: cornflowerblue;
+    background-color: lightsteelblue;
+    width: fit-content;
+    font-weight: lighter;
+}
+
+h3 {
+    color: darkgoldenrod;
+}
+
+strong {
+    background-color: beige;
+}
+
+footer {
+    background-color: lavenderblush;
+    width: fit-content;
+    font-style: italic;
+}
+
+a:link {
+    color: royalblue;
+}
+
+a:visited {
+    color: darkorchid;
+}
+
+a:hover {
+    color: khaki;
+}
+
+a:active {
+    color: lightsalmon;
+}
