@@ -46,3 +46,7 @@ a:hover {
 a:active {
     color: lightsalmon;
 }
+
+dfn#term {
+    color: slategray;
+}
