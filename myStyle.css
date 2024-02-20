@@ -3,6 +3,8 @@ body {
     background-color: linen;
     font-size: 1.05em;
     font-family: "Century Gothic", Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 h1 {
@@ -13,12 +15,13 @@ h1 {
 h2 {
     color: cornflowerblue;
     background-color: lightsteelblue;
-    width: fit-content;
+    width: 7em;
     font-weight: lighter;
 }
 
 h3 {
     color: darkgoldenrod;
+    margin-left: 25px;
 }
 
 strong {
@@ -27,7 +30,7 @@ strong {
 
 footer {
     background-color: lavenderblush;
-    width: fit-content;
+    width: 50em;
     font-style: italic;
 }
 
@@ -47,6 +50,67 @@ a:active {
     color: lightsalmon;
 }
 
+ul, li {
+    font-size: large;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
 dfn#term {
     color: slategray;
+}
+
+p em {
+    text-decoration: underline;
+}
+
+p.intro {
+    font-style: italic;
+    color: purple;
+}
+
+img#battle {
+    width: 400px;
+    float: right;
+}
+
+div.AftermathBody {
+    margin: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 70em;
+    border-style: dashed;
+    border-right-style: hidden;
+    border-color: burlywood;
+}
+
+div.AftermathEnds {
+    color: purple;
+}
+
+div.navbar {
+    display: flex;
+}
+
+div.link {
+    display: block;
+    border: 1px;
+    border-style: solid;
+    border-radius: 0.5em;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    justify-content: center;
+}
+
+div.infobar {
+    display: flex;
+}
+
+div.info {
+    display: block;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    justify-content: center;
 }
