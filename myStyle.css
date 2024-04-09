@@ -7,6 +7,13 @@ body {
     margin-right: 10px;
 }
 
+@media screen and (max-width: 600px) {
+    body {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
 h1 {
     color: navy;
     background-color: lightblue;
@@ -17,6 +24,12 @@ h2 {
     background-color: lightsteelblue;
     width: 7em;
     font-weight: lighter;
+}
+
+@media screen and (max-width:600px) {
+    h2 {
+        font-weight: normal;
+    }
 }
 
 h3 {
@@ -69,6 +82,11 @@ p.intro {
     color: purple;
 }
 
+img#altflag {
+    width: 10em;
+    margin-top: 20px;
+}
+
 img#battle {
     width: 400px;
     float: right;
@@ -80,10 +98,20 @@ div.AftermathBody {
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    width: 70em;
     border-style: dashed;
-    border-right-style: hidden;
     border-color: burlywood;
+}
+
+@media screen and (orientation: landscape) {
+    div.AftermathBody {
+        width: 70em;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    div.AftermathBody {
+        width: 45em;
+    }
 }
 
 div.AftermathEnds {
@@ -114,3 +142,4 @@ div.info {
     margin: 0.5em;
     justify-content: center;
 }
+
